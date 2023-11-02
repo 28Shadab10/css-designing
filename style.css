@@ -1,0 +1,72 @@
+/* Header css */
+.first {
+  background-color: #cccccc;
+}
+.first__head {
+  font-weight: 900;
+  padding: 15px 20px 0px;
+}
+.first__nav {
+  background-color: black;
+  color: white;
+}
+.first__link {
+  display: flex;
+  margin-bottom: 0px;
+  list-style: none;
+}
+.first__link li {
+  border-right: 2px solid white;
+  padding: 8px 10px;
+  text-decoration: none;
+}
+.first__link:first-child {
+  padding-left: 0px;
+}
+.first__link li:hover {
+  background-color: green;
+}
+.first__link li a {
+  color: white;
+  float: left;
+  text-decoration: none;
+}
+/* Header ended */
+
+/* section css starts */
+.second {
+  display: flex;
+}
+.second__lt {
+  padding-left: 40px;
+}
+.second__lt-hd {
+  font-size: xx-large;
+  font-weight: 900;
+  color: #014068;
+  margin: 0px;
+  padding-top: 10px;
+}
+.second__lt-para {
+  margin-top: 2px;
+}
+.second__rt {
+  background-color: #ddd8d8;
+}
+.second__rt-hd {
+  margin: 20px 20px 0px;
+  color: #063474;
+  font-size: x-large;
+}
+.second__rt-para {
+  margin: 2px 20px 0px;
+}
+/* Section css ended */
+
+/* Footer css starts */
+.third {
+  background-color: #cccccc;
+  text-align: right;
+  padding: 10px;
+}
+/* Footer css ended */
